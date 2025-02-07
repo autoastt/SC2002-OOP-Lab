@@ -12,7 +12,7 @@ public class P3 {
     System.out.print("increment: ");
     int cnt = sc.nextInt();
 
-    if (e < s) {
+    if (e < s || cnt <= 0) {
       System.out.println("Error input!!");
       return;
     }
